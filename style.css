@@ -19,10 +19,46 @@ html
 
 }
 
-@media screen and (min-width:900px) { 
-     .pic{
-          width: 500px;
-     }
+@media screen and (max-width:400px) { 
+     #header{
+          background-color:#92c0f5;
+          height:80px;
+          text-align:center;
+          line-height:80px;
+          width: 70%;
+          }
+     #sidebar_left{
+               background-color:#e0dcd3;
+               width:10px;
+               height:10px;
+               text-align: middle;
+               line-height:10px;
+               float:left;
+               /* font-size: small; */
+               width: 10%;
+               }
+     #content{
+                    margin-left:20px;
+                    margin-right:20px;
+                    height:200px;
+                    background-color:#e3cef7;
+                    text-align: center;
+                    line-height:40px;
+                    width: 70%;
+                    
+                    
+                    
+                    /* line-heigh是行高的意思 */
+                    }
+     #footer{
+                         clear:both;
+                         background-color:#FFD4D4;
+                         height:50px;
+                         text-align:center;
+                         line-height:30px;
+                         width: 70%;
+                         }
+     
    }
 
 .h3{
@@ -56,7 +92,7 @@ line-height:80px;
 
 #sidebar_left{
 background-color:#e0dcd3;
-width:200px;
+width:150px;
 height:400px;
 text-align: middle;
 line-height:40px;
@@ -123,5 +159,6 @@ line-height:35px;
      background-color:#fff;
      border:2px #FFD4D4 solid;
    }
+
 
 
