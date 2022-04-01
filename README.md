@@ -13,6 +13,7 @@
 * 文字轉變+一個按鈕
 `change this document`
 - [x]  **Quiz2** 
-* 文字轉變+兩個按鈕
+* 文字轉變+一個按鈕
 `change this document`
++一個動態按鈕
 `try it`
