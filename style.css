@@ -18,8 +18,9 @@ html
 
 
 }
-
-@media screen and (max-width:400px) { 
+@media screen and (min-width: 400px) and (max-width: 600px)
+/* 當螢幕介於400-800像素時 */
+{
      #header{
           background-color:#92c0f5;
           height:80px;
@@ -45,6 +46,49 @@ html
                     text-align: center;
                     line-height:40px;
                     width: 70%;
+                    
+                    
+                    
+                    /* line-heigh是行高的意思 */
+                    }
+     #footer{
+                         clear:both;
+                         background-color:#FFD4D4;
+                         height:50px;
+                         text-align:center;
+                         line-height:30px;
+                         width: 70%;
+                         }
+     
+}
+@media screen and (max-width:400px) 
+/* max width是當螢幕寬度小於400像素時 */
+{ 
+     #header{
+          background-color:#92c0f5;
+          height:80px;
+          text-align:center;
+          line-height:80px;
+          width: 60%;
+          }
+     #sidebar_left{
+               background-color:#e0dcd3;
+               width:1px;
+               height:10px;
+               text-align: middle;
+               line-height:10px;
+               float:left;
+               /* font-size: small; */
+               width: 10%;
+               }
+     #content{
+                    margin-left:20px;
+                    margin-right:20px;
+                    height:200px;
+                    background-color:#e3cef7;
+                    text-align: center;
+                    line-height:40px;
+                    width: 60%;
                     
                     
                     
@@ -159,6 +203,5 @@ line-height:35px;
      background-color:#fff;
      border:2px #FFD4D4 solid;
    }
-
 
 
