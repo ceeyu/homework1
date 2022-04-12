@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+ <title>Simple HTML Document</title>
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ <script>
+
+$(document).ready(function(){
+ // Removes the hyperlink's href attribute
+ $("button").click(function(){
+ $("#num1").text("CSIE@CGU");
+ $("#num2").text("怎麼那麼棒！！.");
+ });
+});
+</script>
+</head>
+<body>
+<!-- <input type="button" value="Change this document." onclick="change()"> -->
+<button>Change this document.</button>
+ <h1 id="num1">CGU</h1>
+ <p id="num2">好棒棒</p>
+</body>
+</html>
