@@ -1,0 +1,30 @@
+/* .station {
+    border: 5px orange solid;
+    padding: 10px;
+    width: fit-content;
+    margin: 15px 0px;
+} */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"); */
+.station{
+    display: inline-block;
+    /* inline-block是決定他是block的關鍵，同時有inline和block的屬性 */
+    width: 120px;
+    height: 50px;
+    border-radius:10px;
+    margin-right: 40px ;
+    color: white; 
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(112, 212, 252);
+    /* 是背景，依照div大小 */
+    
+  }
+.start{
+    background-color: rgb(252, 140, 112);
+}
+/* css順序會影響覆蓋順序 */
+/* .verticalLine {
+    border-left: thick solid #000;
+    left: 5%;
+    height: 20%;
+} */
